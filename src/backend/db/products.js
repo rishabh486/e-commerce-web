@@ -1,4 +1,5 @@
 import { v4 as uuid } from "uuid";
+import { nike_shoes } from "../../Assets/index";
 
 /**
  * Product Database can be added here.
@@ -12,6 +13,7 @@ export const products = [
     author: "Shiv Khera",
     price: "5000",
     categoryName: "non-fiction",
+    imageSrc: nike_shoes,
   },
   {
     _id: uuid(),
@@ -19,6 +21,7 @@ export const products = [
     author: "Junaid Qureshi",
     price: "3000",
     categoryName: "horror",
+    imageSrc: nike_shoes,
   },
   {
     _id: uuid(),
@@ -26,5 +29,6 @@ export const products = [
     author: "Shiv Khera",
     price: "1000",
     categoryName: "fiction",
+    imageSrc: nike_shoes,
   },
 ];
