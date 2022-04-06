@@ -2,7 +2,7 @@ import React from 'react'
 import signup from "./signup.css"
 import {useState} from "react"
 import axios from "axios"
-import {v4 as uuid} from "uuid"
+import {v8 as uuid} from "uuid"
 
 
 function Signup() {
